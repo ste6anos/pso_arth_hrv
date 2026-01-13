@@ -4,6 +4,10 @@
 **Institution:** Aristotle University of Thessaloniki (AUTH)  
 **Academic Year:** [2025]
 
+## Documentation
+For a detailed analysis of the methodology and clinical results, you can:
+* [Check the full thesis review pdf](Thesis_Review.pdf)
+
 ## Abstract
 This thesis investigates the ability to identify inflammation flares and other clinical va-
 riables through heart rate data in patients with psoriatic arthritis.
