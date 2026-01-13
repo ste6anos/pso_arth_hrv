@@ -11,12 +11,14 @@ Psoriatic arthritis is a chronic inflammatory autoimmune disease that affects th
 andskin, causingpain, stiffness, andgeneralmalaise. Duringflareperiods, symptomscan
 beparticularlysevere, significantlyimpactingpatients’qualityoflife. Earlyidentification
 or prediction of these flares could lead to more effective symptom management.
+
 Heart rate variability (HRV) is a measure of the variation in time between consecutive
 heartbeats and reflects the activity of the autonomic nervous system. Low HRV values
 have been associated with inflammatory conditions and physiological dysfunction, ma-
 king it a promising biomarker for monitoring chronic diseases. With modern wearable
 technology (smartwatches, rings), continuous and non-invasive heart rate monitoring in
 daily life is now possible.
+
 In this study, data from 111 patients across Europe were collected via smartwatch. The
 raw heart rate data underwent preprocessing to extract reliable HRV metrics. Subseque-
 ntly, statistical analysis and machine learning techniques were applied to investigate both
