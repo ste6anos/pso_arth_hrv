@@ -6,7 +6,7 @@
 
 ## Documentation
 For a detailed analysis of the methodology and clinical results, you can:
-* [Check the full thesis review pdf]([Thesis_Review.pdf](https://github.com/ste6anos/pso_arth_hrv/blob/main/thesis_report.pdf))
+* [Check the full thesis review pdf]((https://github.com/ste6anos/pso_arth_hrv/blob/main/thesis_report.pdf))
 
 ## Abstract
 This thesis investigates the ability to identify inflammation flares and other clinical va-
