@@ -28,3 +28,53 @@ raw heart rate data underwent preprocessing to extract reliable HRV metrics. Sub
 ntly, statistical analysis and machine learning techniques were applied to investigate both
 the discriminative and predictive ability of HRV features with respect to inflammation
 flares, as well as additional clinical variables of the disease.
+
+
+## Dataset – PDPID Preliminary Cohort
+
+The dataset used in this study is the **PDPID (Psoriatic Disease Patient Identification) preliminary dataset**, collected within the context of a European multi-center study.
+
+### Cohort Overview
+
+| Attribute | Value |
+|-----------|-------|
+| Patients | 111 adults with Psoriatic Arthritis (PsA) |
+| Countries | Netherlands (26%), UK (29%), Greece (45%) |
+| Collection Period | September 2024 – April 2025 |
+| HRV Window Used | First 14 days post-enrollment (T0) |
+
+### Data Sources
+
+The dataset integrates three complementary data streams:
+
+**1. Wearable Physiological Data**  
+Continuous beat-to-beat interval (BBI) recordings via smartwatch PPG (Photoplethysmography), capturing inter-beat intervals in milliseconds throughout the day.
+
+**2. Clinical Assessment (Physician)**  
+Recorded at enrollment visit (T0): joint counts (SJC/TJC), inflammatory markers (CRP), composite disease activity scores (DAPSA, PASDAS, MDA), disease phenotype, and physician-reported flare status (DOC_FLARE).
+
+**3. Patient-Reported Outcomes (PROs)**  
+Questionnaire-based self-assessments including: pain, fatigue, sleep quality, functional status (HAQ), PsAID-12 score, and patient-reported flare status (PAT_FLARE).
+
+### Key Clinical Variables
+
+| Variable | Description | Missing |
+|----------|-------------|---------|
+| `DOC_FLARE` | Physician-reported inflammatory flare | 4% |
+| `PAT_FLARE` | Patient-reported inflammatory flare | 27% |
+| `CRP_mg_dL` | C-reactive protein (inflammation marker) | 23% |
+| `DAPSA` | Disease Activity Index for PSoriatic Arthritis | 49% |
+| `PASDAS` | Psoriatic Arthritis Disease Activity Score | 43% |
+| `PsAID-12` | Patient Impact of Disease score | 26% |
+| `HAQ` | Health Assessment Questionnaire | 25% |
+| `BMI` | Body Mass Index | 5% |
+
+### Patient Demographics (Median [IQR])
+
+- **Age:** 55 [45–61] years  
+- **Sex:** 51% male  
+- **Disease duration:** 8 [4–16] years  
+- **BMI:** 28 [25–34]  
+- **Psoriasis history:** 79%
+
+> ⚠️ **Data Availability:** The raw dataset is not publicly available due to patient privacy regulations. Only aggregated statistics and derived HRV metrics are used in the analyses presented in this repository.
