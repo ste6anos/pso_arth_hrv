@@ -105,7 +105,7 @@ HRV profiles ready for analysis. The key design choice is the **circadian split*
 separating rest and active periods ensures that differences observed between patients
 reflect the disease rather than natural day/night HRV fluctuations.
 
-![HRV Processing Pipeline](assets/hrv_pipeline.svg)
+![HRV Processing Pipeline](/hrv_pipeline.svg)
 
 ---
 
